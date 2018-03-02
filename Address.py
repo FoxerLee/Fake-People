@@ -1,12 +1,8 @@
 # -*- coding: utf-8 -*-
 import json
-import re
 import os
-from lxml import html
 import csv
 import datetime
-import mysql.connector
-from multiprocessing import Process
 import random
 import requests
 
