@@ -9,7 +9,8 @@ install:
   - pip install coveralls
 # command to run tests
 script:
-  python FakeName.py    
+  - python FakeName.py
+  - coverage run FakeName.py  
 # coveralls
 after_success:
     coveralls
