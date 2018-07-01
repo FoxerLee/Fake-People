@@ -9,7 +9,7 @@ def run():
 
     c = open('names.csv', 'ab')
     w = csv.writer(c)
-    for i in range(4000):
+    for i in range(12):
         res = requests.get('http://www.gaoshukai.com/lab/0014/cn.php')
         # res.encoding = 'gb2312'
 
@@ -20,9 +20,9 @@ def run():
             name = tr.xpath('./text()')[0].encode('utf8')
             name = name[3:-3]
             w.writerow((name, ))
-            print name
+            print(name)
 
-        print datetime.datetime.now()
+        print(datetime.datetime.now())
 
 
 if __name__ == '__main__':
