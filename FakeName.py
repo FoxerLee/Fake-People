@@ -7,7 +7,7 @@ import requests
 
 def run():
 
-    c = open('names.csv', 'ab')
+    c = open('names.csv', 'a')
     w = csv.writer(c)
     for i in range(12):
         res = requests.get('http://www.gaoshukai.com/lab/0014/cn.php')
