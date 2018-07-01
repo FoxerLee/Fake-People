@@ -9,7 +9,7 @@ install:
   - pip install coveralls
 # command to run tests
 script:
-    nosetests --cover-package=project --with-coverage
+    pytest
 # coveralls
 after_success:
     coveralls
