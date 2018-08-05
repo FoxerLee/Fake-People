@@ -16,10 +16,10 @@
 暂代补充
 
 ## 地址
-利用该[Repository](https://github.com/modood/Administrative-divisions-of-China)获取到的中华人民共和国行政区划代码、统计用区划和城乡划分代码，根据其划分代码将区划构建成完整的地址。
+利用该 [Repository](https://github.com/modood/Administrative-divisions-of-China) 获取到的中华人民共和国行政区划代码、统计用区划和城乡划分代码，根据其划分代码将区划构建成完整的地址。
 
 - ⚠️：代码中的address精确到区、乡镇一级，如果street则精确到街道一级，street需要利用address获取到的地址。
-- ⚠️：如需获取最新原始地址，请前往[Repository](https://github.com/modood/Administrative-divisions-of-China)。
+- ⚠️：如需获取最新原始地址，请前往 [Repository](https://github.com/modood/Administrative-divisions-of-China)。
 - 源代码 [Address.py](https://github.com/FoxerLee/Fake-People/blob/master/Address.py)
 - 数据来源：https://github.com/modood/Administrative-divisions-of-China
 
